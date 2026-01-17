@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LegalSection } from '../types';
+import { LegalSection } from '../types.ts';
 
 interface LegalSectionItemProps {
   section: LegalSection;

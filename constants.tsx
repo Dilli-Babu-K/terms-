@@ -1,5 +1,5 @@
 
-import { LegalContent } from './types';
+import { LegalContent } from './types.ts';
 
 export const RECOVA_TERMS: LegalContent = {
   lastUpdated: '17 January 2026',

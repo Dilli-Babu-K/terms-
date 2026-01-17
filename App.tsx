@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { RECOVA_TERMS } from './constants';
-import LegalSectionItem from './components/LegalSectionItem';
+import { RECOVA_TERMS } from './constants.tsx';
+import LegalSectionItem from './components/LegalSectionItem.tsx';
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
