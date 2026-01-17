@@ -1,34 +1,175 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terms & Conditions — Recova</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions — RECOVA</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-      body {
-        font-family: 'Inter', sans-serif;
-      }
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .legal-section {
+            scroll-margin-top: 5rem;
+        }
+        .glass-header {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
     </style>
-    <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@19.0.0",
-    "react-dom": "https://esm.sh/react-dom@19.0.0",
-    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/"
-  }
-}
-</script>
-  </head>
-  <body class="bg-gray-50 text-gray-900 selection:bg-blue-100 selection:text-blue-900">
-    <div id="root"></div>
-    <!-- The script tag below is essential for the app to load -->
-    <script type="module" src="./index.tsx"></script>
-  </body>
+</head>
+<body class="bg-slate-50 text-slate-900 selection:bg-blue-100 selection:text-blue-900">
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 border-b border-slate-200 glass-header">
+        <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="font-bold text-xl tracking-tight text-slate-800 uppercase">Recova</div>
+            <nav>
+                <a href="https://dilli-babu-k.github.io/recova-privacy/" class="text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors underline underline-offset-4 decoration-blue-200">
+                    Privacy Policy
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="pt-32 pb-24 px-6">
+        <article class="max-w-3xl mx-auto">
+            <header class="mb-12">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">
+                    Terms & Conditions
+                </h1>
+                <div class="flex items-center gap-2 text-sm text-slate-500 font-medium">
+                    <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                    Last updated: 17 January 2026
+                </div>
+            </header>
+
+            <div class="space-y-12">
+                <section class="prose prose-slate max-w-none">
+                    <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                        By accessing or using <span class="font-bold text-slate-900">Recova</span>, you agree to these Terms & Conditions. If you do not agree, please do not use the app.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Purpose of the App</h2>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 leading-relaxed">
+                        <li>Recova provides recovery and readiness insights based on user-entered information.</li>
+                        <li>Recova is <span class="font-semibold text-slate-800 underline decoration-slate-300">NOT</span> a medical application.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section bg-rose-50 border-l-4 border-rose-500 p-6 rounded-r-lg">
+                    <h2 class="text-xl font-bold mb-4 text-rose-700 uppercase tracking-wide text-sm">Health Disclaimer (IMPORTANT)</h2>
+                    <p class="text-rose-900 font-medium mb-3">Recova:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-rose-800 leading-relaxed">
+                        <li>Does not diagnose medical conditions</li>
+                        <li>Does not provide medical advice</li>
+                        <li>Does not replace professional healthcare services</li>
+                    </ul>
+                    <p class="mt-4 text-rose-900 font-semibold italic">All insights are informational only. Always consult a qualified healthcare professional before making health decisions.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">User Responsibilities</h2>
+                    <p class="text-slate-600 mb-3">You agree to:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 leading-relaxed">
+                        <li>Provide accurate information</li>
+                        <li>Use the app for personal use only</li>
+                        <li>Not misuse, modify, reverse engineer, or exploit the app</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Accounts</h2>
+                    <p class="text-slate-600 mb-3">You may use Recova:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 leading-relaxed">
+                        <li>With Google Sign-In</li>
+                        <li>As a Guest user</li>
+                    </ul>
+                    <p class="mt-3 text-slate-600 italic">You are responsible for maintaining access to your account.</p>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Data & Privacy</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        Your data is handled according to our Privacy Policy. By using Recova, you consent to data processing as described there.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Availability</h2>
+                    <p class="text-slate-600 mb-3">We strive to keep Recova available, but:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 leading-relaxed">
+                        <li>Service interruptions may occur</li>
+                        <li>Features may change or be discontinued</li>
+                        <li>We are not responsible for interruptions beyond reasonable control</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Limitation of Liability</h2>
+                    <p class="text-slate-600 mb-3">To the maximum extent permitted by law:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 leading-relaxed">
+                        <li>Recova is provided “as is”</li>
+                        <li>We are not liable for indirect or consequential damages</li>
+                        <li>Use of the app is at your own risk</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Termination</h2>
+                    <ul class="list-disc ml-5 space-y-2 text-slate-600 leading-relaxed">
+                        <li>We may suspend or terminate access if these terms are violated or the app is misused.</li>
+                        <li>You may stop using the app at any time.</li>
+                    </ul>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Changes to Terms</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        We may update these Terms & Conditions. Continued use of Recova means acceptance of updated terms.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Governing Law</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        These Terms are governed by the laws of India.
+                    </p>
+                </section>
+
+                <section class="legal-section">
+                    <h2 class="text-xl font-bold mb-4 text-slate-900">Contact</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        For questions regarding these Terms & Conditions:
+                        <a href="mailto:recova.app0@gmail.com" class="block mt-2 font-semibold text-slate-900 hover:text-blue-600 transition-colors">
+                            📧 recova.app0@gmail.com
+                        </a>
+                    </p>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 py-12 px-6 bg-white">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-slate-400 text-sm font-medium">
+                © 2026 RECOVA. All rights reserved.
+            </div>
+            <div class="font-bold text-slate-300 tracking-widest uppercase text-xs">
+                Recovery & Readiness
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
